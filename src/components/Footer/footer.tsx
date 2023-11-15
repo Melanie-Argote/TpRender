@@ -9,7 +9,7 @@ export const Footer = () => {
                     </div>
                     <div className="col-md-6 col-12">
                         <h3> Contact us</h3>
-                        <p> Email: meli@hotmail.com</p>
+                        <p> Email: meli.argote@gmail.com</p>
                         <p> Phone: (123)978682</p>
                     </div>
                 </div>

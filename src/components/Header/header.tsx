@@ -1,4 +1,4 @@
-import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 
 import { useNavigate } from "react-router-dom";
@@ -8,7 +8,7 @@ const Header = () => {
         <>
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand onClick={() => navigate ('/')}>React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand onClick={() => navigate ('/')}>El buen sabor</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

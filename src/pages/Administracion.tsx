@@ -1,10 +1,10 @@
-import ProductTable from "../components/ProductTable/ProductTable"
+import EmpleadoTable from "../components/EmpleadoTable/EmpleadoTable"
 
 
 const Administracion = () => {
   return (
     <>
-      <ProductTable/>
+      <EmpleadoTable/>
     </>
   )
 }
